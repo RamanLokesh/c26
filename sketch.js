@@ -7,13 +7,13 @@ var box1, pig1;
 var backgroundImg,platform;
 
 function preload() {
-    backgroundImg = loadImage("sprites/bg.png");
+    backgroundImg = loadImage("sprites/bird.png");
 }
 
 function setup(){
     var canvas = createCanvas(1200,400);
     engine = Engine.create();
-    world = engine.world;
+    world = engine.world;matter
 
 
     ground = new Ground(600,height,1200,20);
